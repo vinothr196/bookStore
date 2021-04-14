@@ -1,0 +1,61 @@
+body {
+  margin: 0 10%;
+}
+
+section {
+  padding-top: 10px;
+}
+
+nav a::after {
+  content: "|";
+  padding: 4px;
+}
+
+#salesTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#salesTable td, #salesTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#salesTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#salesTable tr:hover {background-color: #ddd;}
+
+#salesTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.wrap {
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  background-color: #4caf5042;
+  border-radius: 5px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.wrap .fieldDiv {
+  padding-bottom: 5px;
+}
+
+.wrap .fieldDiv label {
+  padding-left: auto;
+  text-align: right;
+}
+
+.wrap .buttonDiv {
+  text-align: right
+}
